@@ -44,7 +44,7 @@ try {
     }
 
     fetchListings()
-  },[params.categoryName])
+  },[])
 
 
   return (
@@ -66,7 +66,7 @@ try {
       </main>
         </>
          ):( 
-         <p>No listings for {params.categoryName}</p>
+         <p>There are not current offers </p>
          )}
     </div>
   )
